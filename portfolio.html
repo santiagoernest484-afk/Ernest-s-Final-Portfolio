@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic page setup -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projects and achievements of Ernest Peter C. Santiago: a personal portfolio website and a cat and dog object detection model.">
+  <title>Ernest Peter C. Santiago | Portfolio</title>
+
+  <!-- Fonts, icons, and the external stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@300;600;800&family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER AND NAVIGATION ===== -->
+  <header class="site-header">
+    <div class="nav">
+      <a href="index.html" class="logo">Ernest<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="mailto:santiagoernest484@gmail.com" class="nav-cta">
+        <i class="fa-solid fa-envelope" aria-hidden="true"></i> Email Me
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== FEATURED PROJECTS (hover or tab to expand a strip) ===== -->
+    <section class="section theme-lime page-top">
+      <span class="ghost" aria-hidden="true">WORK</span>
+      <span class="orb orb-1" aria-hidden="true"></span>
+      <div class="container">
+
+        <div class="section-head">
+          <span class="eyebrow">Creative Works</span>
+          <h1 class="display">Featured <span class="hl">Projects</span></h1>
+          <p>Projects I have built while learning web development and computer vision.</p>
+        </div>
+
+        <div class="accordion tall">
+
+          <!-- Project 1: this website -->
+          <article class="panel is-open" tabindex="0">
+            <div class="panel-mark"><i class="fa-solid fa-code" aria-hidden="true"></i><small>01</small></div>
+            <div class="panel-body">
+              <h2>Personal Online Portfolio Website</h2>
+              <p>
+                The website you are viewing right now. I designed and built it from scratch
+                for my Web Design Basics hands-on activity, applying what I learned about
+                HTML and CSS.
+              </p>
+              <ul class="features">
+                <li>Four linked pages with a shared navigation bar</li>
+                <li>One external stylesheet for every page</li>
+                <li>Responsive layout for desktop, tablet, and mobile</li>
+              </ul>
+              <ul class="tags">
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">UI/UX</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Project 2: Roboflow object detection -->
+          <article class="panel" tabindex="0">
+            <img class="panel-bg" src="assets/images/roboflow-detection.jpg" alt="">
+            <div class="panel-mark"><i class="fa-solid fa-eye" aria-hidden="true"></i><small>02</small></div>
+            <div class="panel-body">
+              <h2>Object Detection for Cats and Dogs</h2>
+              <p>
+                An object detection model built and trained on Roboflow that tells whether
+                an image shows a cat or a dog. It was trained on 40 images and draws a
+                bounding box with a confidence score on each detection.
+              </p>
+              <ul class="features">
+                <li>Image labeling and dataset preparation</li>
+                <li>Model training and testing</li>
+                <li>Reading predictions and confidence scores</li>
+              </ul>
+              <ul class="tags">
+                <li class="tag">Roboflow</li>
+                <li class="tag">Object Detection</li>
+                <li class="tag">Computer Vision</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Placeholder for future work -->
+          <article class="panel" tabindex="0">
+            <div class="panel-mark"><i class="fa-solid fa-plus" aria-hidden="true"></i><small>03</small></div>
+            <div class="panel-body">
+              <h2>More Projects Coming Soon</h2>
+              <p>
+                I am still learning, and new projects will be added here as my skills in
+                C#, C, and web development grow.
+              </p>
+              <ul class="tags">
+                <li class="tag">C#</li>
+                <li class="tag">C</li>
+                <li class="tag">Web Development</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MILESTONES AND ACHIEVEMENTS ===== -->
+    <section class="section theme-dark">
+      <span class="orb orb-2" aria-hidden="true"></span>
+      <div class="container">
+
+        <div class="section-head">
+          <span class="eyebrow">Highlights</span>
+          <h2 class="display">Key <span class="hl">Milestones</span> &amp; Achievements</h2>
+        </div>
+
+        <div class="grid-4">
+          <article class="card achievement">
+            <span class="card-icon"><i class="fa-solid fa-medal" aria-hidden="true"></i></span>
+            <h3>Silver Medalist</h3>
+            <p>Long Jump at the Palarong Pang Oriental Mindoro.</p>
+          </article>
+          <article class="card achievement">
+            <span class="card-icon"><i class="fa-solid fa-medal" aria-hidden="true"></i></span>
+            <h3>Bronze Medalist</h3>
+            <p>High Jump at the Palarong Pang Oriental Mindoro.</p>
+          </article>
+          <article class="card achievement">
+            <span class="card-icon"><i class="fa-solid fa-award" aria-hidden="true"></i></span>
+            <h3>Valedictorian</h3>
+            <p>Graduated at the top of the class at San Roque Elementary School.</p>
+          </article>
+          <article class="card achievement">
+            <span class="card-icon"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></span>
+            <h3>With High Honors</h3>
+            <p>Junior and senior high school at San Roque National High School.</p>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== SKILLS GAINED ===== -->
+    <section class="section theme-lime">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Takeaways</span>
+          <h2 class="display">Skills I <span class="hl">Gained</span></h2>
+          <p>
+            These projects gave me basic knowledge of Roboflow and object detection, plus
+            practical experience in building and styling web pages.
+          </p>
+        </div>
+
+        <ul class="chip-row">
+          <li class="chip">Roboflow Basics</li>
+          <li class="chip">Object Detection</li>
+          <li class="chip">Semantic HTML</li>
+          <li class="chip">CSS Layout</li>
+          <li class="chip">Responsive Design</li>
+        </ul>
+
+        <div class="btn-group">
+          <a href="contact.html" class="btn btn-dark">
+            Let's Connect <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-name">Ernest Peter C. Santiago</p>
+      <p class="footer-tagline">From Learning the Basics to Building the Future.</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2026 Ernest Peter C. Santiago. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
